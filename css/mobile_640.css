@@ -50,13 +50,13 @@ nav.on > .gnb > li > a {line-height: 80px; padding: 0;}
 /* 모달박스 */
 #modalBox {z-index: 2;}
 
-#mudalContents {width: 600px; border-radius: 0;}
-#mudalContents h1 {writing-mode: vertical-rl; float: left; width: 30px;}
-#mudalContents > img {float: none; border-radius: 30px; height: 400px; margin-right: 0;}
+#mudalContents {max-width: 100%; border-radius: 0; padding: 60px; box-sizing: border-box;}
+#mudalContents h1 {writing-mode: vertical-rl; float: left; width: 13%; margin-top: 80px; line-height: 2.5; font-size: 30px;}
+#mudalContents > img {float: none; border-radius: 30px; width: 70%; max-height: 100%; margin-right: 0; }
+#mudalContents #close {width: 10%; top: 40px; left: 5%;}
+#mudalContents p {float: none; width: 100%; }
 
-#mudalContents p {float: none; width: 380px; transform: translateX(60px);}
-
-#mudalContents .skil {width: 530px;}
+#mudalContents .skil {width: 100%;}
 #mudalContents .skil > li img {width: 40px; height: 40px;}
 
 /* sns */

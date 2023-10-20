@@ -45,18 +45,18 @@ nav.on > .gnb > li > a {line-height: 70px; padding: 0;}
 /* 모달박스 */
 #modalBox {z-index: 2; height: 100%; }
 
-#mudalContents {width: 450px; border-radius: 0; padding: 30px; box-sizing: border-box;}
-#mudalContents h1 {writing-mode: vertical-rl; float: left; width: 30px; font-size: 23px; margin-top: 40px;}
+#mudalContents {width: 100%; border-radius: 0; padding: 30px; box-sizing: border-box;}
+#mudalContents h1 {writing-mode: vertical-rl; float: left; width: 30px; font-size: 23px; margin-top: 40px; line-height: 2.5;}
 #mudalContents > img {float: none; border-radius: 30px; width: 290px; height: 350px; margin-right: 0;}
 
 #mudalContents p {float: none; width: 310px; transform: translateX(10px); font-size: 16px;}
 
-#mudalContents .skil {width: 530px;}
+#mudalContents .skil {width: 100%;}
 #mudalContents .skil > li img {width: 40px; height: 40px;}
-#mudalContents #close {width: 50px; top: 10px; left: 10px;}
+#mudalContents #close {width: 50px; top: 20px; left: 10px;}
 #mudalContents p strong {font-size: 20px;}
 
-#mudalContents .skil {width: 360px;}
+#mudalContents .skil {width: 100%;}
 #mudalContents .skil > li img {width: 30px; height: 30px;}
 
 /* sns */

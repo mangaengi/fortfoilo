@@ -99,14 +99,14 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 
 #modalBox {position: fixed; top: 0; left: 0; right: 0; bottom: 0; display: none; justify-content: center; align-items: center; background: rgba(0,0,0,0.7); z-index: 1;}
 #modalBox.active {display: flex;}
-#mudalContents {width: 800px; padding: 45px; border-radius: 3px; position: relative; background: #fff; text-align: center; border-radius: 60px 0;}
+#mudalContents {width: 800px; padding: 45px; border-radius: 3px; position: relative; background: #fff; text-align: center; border-radius: 60px 0; box-sizing: border-box;}
 #mudalContents h1 {float: none; width: 100%; margin-bottom: 30px; font-size: 35px;}
-#mudalContents > img {float: left; width: 350px; height: 430px; border-radius: 60px 0; margin-right: 50px;}
-#mudalContents p {position: relative; float: left; width: 350px; padding: 10px; font-size: 18px; line-height: 1.5; }
+#mudalContents > img {float: left; width: 50%; height: 430px; border-radius: 60px 0; }
+#mudalContents p {position: relative; float: left; width: 50%; padding: 10px; font-size: 18px; line-height: 1.5; box-sizing: border-box;}
 #mudalContents #close {border: none; background: #fff; position: absolute; right: 30px; top: 30px; font-size: 30px; cursor: pointer;}
 
 #mudalContents p strong {position: absolute; top: 5px; transform: translateX(-50%); font-size: 23px; background: #fff; padding: 0 15px;}
-#mudalContents .skil {float: left; width: 400px;  height: 100px; border: 1px solid rgba(0,0,0,0.2); padding: 35px 0; box-sizing: border-box;}
+#mudalContents .skil {float: right; width: 48%;  height: 100px; border: 1px solid rgba(0,0,0,0.2); padding: 35px 0; box-sizing: border-box;}
 #mudalContents .skil > li {float: left; width: calc(100%/7); transition: all 0.3s;}
 #mudalContents .skil > li img {width: 35px; height: 35px; margin-right: 0;}
 #mudalContents .skil > li:hover {transform: translatey(-5px);}
