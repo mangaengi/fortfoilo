@@ -53,7 +53,7 @@ nav.on > .gnb > li > a {line-height: 80px; padding: 0;}
 #mudalContents {max-width: 100%; border-radius: 0; padding: 60px; box-sizing: border-box;}
 #mudalContents h1 {writing-mode: vertical-rl; float: left; width: 13%; margin-top: 80px; line-height: 2.5; font-size: 30px;}
 #mudalContents > img {float: none; border-radius: 30px; width: 70%; max-height: 100%; margin-right: 0; }
-#mudalContents #close {width: 10%; top: 40px; left: 5%;}
+#mudalContents #close {width: 10%; top: 50px; left: 10%; font-size: 40px;}
 #mudalContents p {float: none; width: 100%; }
 
 #mudalContents .skil {width: 100%;}
