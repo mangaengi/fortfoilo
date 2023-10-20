@@ -75,22 +75,26 @@ nav.on > .gnb > li > a {line-height: 80px; padding: 0;}
 #about .praise li img {width: 100px; height: 100px; margin-bottom: 10px;}
 
 /* #project */
-#project {width: 640px; height: 1000px; padding-top: 80px;}
-#project  .project_Swiper {width: 630px;  height: 500px; margin-left: 5px;}
+#project {width: 100%; height: 100%; padding-top: 80px;}
+#project  .project_Swiper {max-width: 100%;  height: 100%;}
 #project  .project_Swiper .swiper-slide {border-radius: 30px 30px 0 0;}
 #project  .project_Swiper .Swiper-img {float: none; width: 100%; padding: 20px; box-sizing: border-box;}
 #project .project_Swiper .Swiper-img .pc_img > img {width: 400px; height: 350px;}
-#project  .project_Swiper .Swiper-img .pc_img figure {top: 8%; left: 1%; width: 390px; height: 231px;}
+#project  .project_Swiper .Swiper-img .pc_img figure {top: 10%; left: 1%; width: 400px; height: 231px;}
 #project  .project_Swiper .Swiper-img .pc_img figure > p {width: 390px; }
 #project  .project_Swiper .Swiper-img .pc_img figure > p > img {width: 100%; height: 100%;}
 
 /* .mobile_img */
-#project  .project_Swiper .Swiper-img .mobile_img {right: 10%;}
-/* ---------- */
-#project  .project_Swiper .Swiper-img .center {bottom: -5%;}
-#project  .project_Swiper .Swiper-img .center img  {width: 260px; height: 400px;}
-#project  .project_Swiper .Swiper-img .center > figure {right: 20%; top: 16px;  width: 220px; height: 365px; border-radius: 25px;}
+#project  .project_Swiper .Swiper-img .mobile_img {right: 3%; bottom: 0;}
 
+/* ---------- */
+#project  .project_Swiper .center {height: 500px; bottom: 0;}
+#project  .project_Swiper .center .center_img img {width: 240px; height: 400px;}
+
+#project .project_Swiper .center .center_img > figure {width: 200px; height: 368px; right: -40px; top: 15px; border-radius: 20px;}
+#project .project_Swiper .center .center_img > figure p {width: 100%;}
+#project  .project_Swiper .center .center_img {right: 40%; bottom: 30%;}
+#project  .project_Swiper .Swiper-img .mobile_img figure > p > img {border-radius: 20px;}
 
 
 /* .Swiper-txt  */
@@ -99,10 +103,10 @@ nav.on > .gnb > li > a {line-height: 80px; padding: 0;}
 #project  .project_Swiper .Swiper-txt .txt span {font-size: 15px;}
 
 #project .project_Swiper .Swiper-txt .txt {margin-top: 10px; }
-#project  .project_Swiper .Swiper-txt  #New_Page {position: absolute; right: 50px; bottom: -60%;}
+#project  .project_Swiper .Swiper-txt  #New_Page {position: absolute; right: 50px; bottom: 20px;}
 
 /* #contact */
-#contact {height: 1000px; margin-top: 100px;}
+#contact {height: 100%;}
 #contact .Comments {font-size: 15px;}
 #contact .my_img {position: absolute; right: 30px; bottom: 20px; width: 150px; height: 120px;}
 #contact .my_img img {width: 100%; height: 100%;}

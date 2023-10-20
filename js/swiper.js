@@ -1,5 +1,5 @@
 var swiper = new Swiper( '.project_Swiper', {
-        autoplay:5000,
+/*         autoplay:5000,
         speed : 5000,
         effect: 'coverflow',
         loop: true,
@@ -12,5 +12,5 @@ var swiper = new Swiper( '.project_Swiper', {
             modifier: 1.5,
             slideShadows : true,
 
-        }
+        } */
     } );
