@@ -38,7 +38,7 @@ nav.on > .gnb > li > a {line-height: 80px; padding: 0;}
 /* #about */
 #about .about_tit figure #My_Page {padding: 15px 30px;}
 
-#about .about_tit {height: 750px; padding: 0 0px;}
+#about .about_tit {height: 100%; padding: 0 0 30px 0; box-sizing: border-box;}
 #about .about_tit .about_img {float: none; width: 100%;}
 #about .about_tit .about_img::before {display: none;}
 

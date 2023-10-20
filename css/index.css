@@ -73,7 +73,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 
 
 /* #about */
-#about {height: 100vh;}
+#about {height: 100%;}
 #about .about_tit { height: 500px; padding: 0 60px;}
 
 #about .about_tit figure img {width: 300px; height: 350px;} 
