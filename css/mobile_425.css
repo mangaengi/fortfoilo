@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+#wrap {max-width: 100%; overflow: hidden;}
+.inner {width: 100%;}
+h1 {width: 45%;}
+header a img {height: 50px;}
+h2 {margin: 50px 0 40px 20px; font-size: 24px;}
+h4 {font-size: 25px;}
+
+/* nav, 사이드메뉴 */
+.Side_menu {display: none;}
+nav {width: 55%; z-index: 2;}
+nav .gnb li {height: 70px; line-height: 70px;}
+nav .gnb li a {font-size: 13px;}
+
+nav.on {position: fixed; top: 0; left: 0; right: 0; background: #fff; transition: all 0.6s; width: 100%; height: 70px; }
+nav.on > .gnb {width: 100%; margin-left: 0;}
+nav.on > .gnb > li {height: 70px;}
+nav.on > .gnb > li > a {line-height: 70px; padding: 0;}
+
+/* Home */
+#Home {height: 45vh;}
+#Home .Home_Bigtxt {left: 0; top: 50px; max-width: 100%; height: 250px;}
+#Home .Home_Bigtxt img {max-width: 100%; height: 100%;} 
+.Home_Bigtxt .bigtxt-txt .bigtxt_one {font-size: 25px;}
+.Home_Bigtxt .bigtxt-txt  .bigtxt_two {font-size: 15px;}
+
+#Home .Home_smailtxt {display: none;}
+
+/* Scroll */
+.Scroll a span {bottom: 48%; width: 16px; height: 16px; }
+.Scroll a span:nth-of-type(2) {bottom: 46%;}
+.Scroll a span:nth-of-type(3) {bottom: 44%;}
+
+/* #about */
+#about .about_tit {padding: 0; max-width: 100%; height: 900px;}
+#about .about_tit figure #My_Page {padding: 10px 15px;}
+
+#about  .about_tit figure {float: none; width: 200px; height: 200px; border-radius: 30px; margin: 0 100px;}
+#about .about_tit figure img {max-width: 100%; height: 200px; margin: 0 auto;}
+#about .about_tit .about_img {float: none; width: 100%;}
+#about .about_tit .about_img::before {display: none;}
+.about_tit .about_img_txt {float: none; width: 100%; padding: 30px 20px; font-size: 15px; box-sizing: border-box;}
+
+/* 모달박스 */
+#modalBox {z-index: 2; height: 100%; }
+
+#mudalContents {width: 450px; border-radius: 0; padding: 30px; box-sizing: border-box;}
+#mudalContents h1 {writing-mode: vertical-rl; float: left; width: 30px; font-size: 23px; margin-top: 40px;}
+#mudalContents > img {float: none; border-radius: 30px; width: 290px; height: 350px; margin-right: 0;}
+
+#mudalContents p {float: none; width: 310px; transform: translateX(10px); font-size: 16px;}
+
+#mudalContents .skil {width: 530px;}
+#mudalContents .skil > li img {width: 40px; height: 40px;}
+#mudalContents #close {width: 50px; top: 10px; left: 10px;}
+#mudalContents p strong {font-size: 20px;}
+
+#mudalContents .skil {width: 360px;}
+#mudalContents .skil > li img {width: 30px; height: 30px;}
+
+/* sns */
+.about_tit .about_img_txt p {font-size: 17px;}
+.about_tit .about_img_txt .sns {margin-top: 30px;}
+.about_tit .about_img_txt .sns img {width: 20px; height: 20px;}
+.about_tit .about_img_txt .sns span {font-size: 15px;}
+
+/* about_txt */
+#about .about_tit .about_txt {float: none; width:  100%; padding: 20px; box-sizing: border-box;}
+#about .about_tit .about_txt .Education {font-size: 15px;}
+
+/* career */
+#about .career {margin-top: 20px; font-size: 15px;}
+
+#about .praise {max-width: 100%; border-radius: 40px; height: 650px; margin: 0 30px; padding: 20px;}
+#about .praise li {width: calc(100%/1); font-size: 15px;}
+#about .praise li img {width: 80px; height: 80px;}
+
+
+/* #project */
+#project {width: 425px; height: 1000px; padding-top: 50px;}
+#project  .project_Swiper {width: 420px; }
+#project  .project_Swiper .Swiper-img {float: none; width: 100%; height: 350px; padding: 20px; box-sizing: border-box;}
+#project .project_Swiper .Swiper-img .pc_img > img {width: 380px; height: 300px;}
+#project  .project_Swiper .Swiper-img .pc_img figure {top: 11%; left: 2%; width:  375px; height: 210px;}
+#project  .project_Swiper .Swiper-img .pc_img figure > p {width: 350px;}
+#project  .project_Swiper .Swiper-img .pc_img figure > p > img {width: 100%; height: 100%;}
+
+
+#project  .project_Swiper .Swiper-img .mobile_img {position: absolute; right: 50px; bottom: 10px; width: 100px; height: 200px; }
+#project  .project_Swiper .Swiper-img .mobile_img img {width: 130px; height: 210px; }
+#project  .project_Swiper .Swiper-img .mobile_img > figure {position: absolute; right: -20px; top: 9px;  width: 110px; height: 192px; overflow: hidden; border-radius: 15px; }
+#project  .project_Swiper .Swiper-img .mobile_img figure > p {position: absolute; top: 0px; right: 0; width: 130px; }
+#project  .project_Swiper .Swiper-img .mobile_img figure > p > img {width: 100%; height: 100%; border-radius: 10px;} 
+
+/* ---------- */
+#project  .project_Swiper .Swiper-img .center {position: absolute; left: 50%; top: 30px;; transform: translateX(-50%); width: 200px; height: 500px; }
+#project  .project_Swiper .Swiper-img .center > img  {width: 200px; height: 300px;}
+#project  .project_Swiper .Swiper-img .center > figure {left: 8%; top: 13px;  width: 180px; height: 275px; border-radius: 20px;}
+#project  .project_Swiper .Swiper-img .center > figure > p  {width: 170px;}
+#project  .project_Swiper .Swiper-img .center > figure > p > img {width: 100%; height: 100%; border-radius: 20px;} 
+
+/* .Swiper-txt  */
+#project  .project_Swiper .Swiper-txt {float: none; width: 100%; height: 380px; padding: 20px; background: #fff; box-sizing: border-box;}
+
+#project  .project_Swiper .Swiper-txt > h4 {font-size: 22px;}
+#project  .project_Swiper .Swiper-txt .txt span {font-size: 15px;}
+
+#project .project_Swiper .Swiper-txt .txt {margin-top: 10px; }
+#project .project_Swiper .Swiper-txt #New_Page {position: absolute; right: 30px; bottom: 30px; width: 60px; height: 30px; line-height: 30px; font-size: 15px;}
+
+/* #contact */
+#contact {height: 900px; padding: 5px 0;}
+#contact .Comments {font-size: 15px;}
+#contact .my_img {position: absolute; right: 30px; bottom: 20px; width: 130px; height: 110px;}
+#contact .my_img img {width: 100%; height: 100%;}
+
+.Formspree {float: none; width: 330px; padding: 0 30px;}
+.Formspree form label #email {width: 100%;}
+.Formspree form label #message {width: 100%; height: 80px;}
+
+.Formspree #btn {padding: 8px 20px; margin-bottom: 20px;}
+
+.kakao {float: none; width: 330px; margin-top: 30px; padding: 0 30px;}
+.kakao p {width: 100%;}
+.kakao p img {width: 150px; height: 150px; margin-top: 40px;}
+
+.contact-text {display: none;}

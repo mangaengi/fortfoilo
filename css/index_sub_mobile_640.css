@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {overflow-x: hidden;}
+header h1 {font-size: 40px;}
+header .banner {height: 50vh;}
+.content {float: none;  width: 570px;  position: relative; padding: 0 30px;}
+.img_area {float: none; border-right: none;}
+section {margin-bottom: 50px;}
+
+h2 {width: 270px;}
+
+/* version */
+#version {position: absolute; right: 5%; top: 30%;}
+
+/* point */
+#point .font {float: left; width:  300px;} 
+#point .font p {width: 220px;}
+
+#point  .Tools {float: left; width: 270px;}
+
+.img_area  {margin: 0 30px;}
+.img_area .pc_img {width: 500px;}
+
+/* center */
+.img_area .center ul {width: 570px;}
+.img_area .center ul li {width: calc(100%/2);}

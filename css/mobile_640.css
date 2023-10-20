@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+.inner {width: 100%; }
+
+#wrap {max-width: 100%; overflow: hidden;}
+header a img {height: 60px;}
+h1 {width: 40%;}
+h2 {font-size: 35px; margin-left: 10px;}
+h4 {font-size: 25px;}
+
+/* nav, 사이드메뉴 */
+.Side_menu {display: none;}
+nav {width: 60%; z-index: 2;}
+nav .gnb li {height: 80px; line-height: 80px;}
+nav .gnb li a {height: 80px; font-size: 16px; padding: 3px;}
+
+nav.on {position: fixed; top: 0; left: 0; right: 0; background: #fff; transition: all 0.6s; width: 100%; height: 80px; }
+nav.on > .gnb {width: 100%; margin: 0 auto;}
+nav.on > .gnb > li {height: 80px;}
+nav.on > .gnb > li > a {line-height: 80px; padding: 0;}
+
+
+/* Home */
+#Home {height: 60vh;}
+#Home .Home_Bigtxt {left: 0; top: 50px; width: 100%; height: 350px;}
+#Home .Home_Bigtxt img {width: 100%; height: 100%;} 
+
+.Home_Bigtxt .bigtxt-txt .bigtxt_one {font-size: 30px;}
+.Home_Bigtxt .bigtxt-txt  .bigtxt_two {font-size: 18px;}
+
+#Home .Home_smailtxt {display: none;}
+
+/* Scroll */
+.Scroll a span {bottom: 38%;}
+.Scroll a span:nth-of-type(2) {bottom: 36%;}
+.Scroll a span:nth-of-type(3) {bottom: 34%;}
+
+/* #about */
+#about .about_tit figure #My_Page {padding: 15px 30px;}
+
+#about .about_tit {height: 750px; padding: 0 0px;}
+#about .about_tit .about_img {float: none; width: 100%;}
+#about .about_tit .about_img::before {display: none;}
+
+#about  .about_tit figure {max-width: 50%; height: 100%; border-radius: 30px;}
+#about .about_tit figure img {width: 100%; height: 100%;}
+
+.about_tit .about_img_txt {max-width: 50%;padding: 20px; font-size: 16px;box-sizing: border-box; }
+
+/* 모달박스 */
+#modalBox {z-index: 2;}
+
+#mudalContents {width: 600px; border-radius: 0;}
+#mudalContents h1 {writing-mode: vertical-rl; float: left; width: 30px;}
+#mudalContents > img {float: none; border-radius: 30px; height: 400px; margin-right: 0;}
+
+#mudalContents p {float: none; width: 380px; transform: translateX(60px);}
+
+#mudalContents .skil {width: 530px;}
+#mudalContents .skil > li img {width: 40px; height: 40px;}
+
+/* sns */
+.about_tit .about_img_txt .sns {width: 100%; margin-top: 0; }
+.about_tit .about_img_txt .sns img {width: 23px; height: 23px;}
+.about_tit .about_img_txt .sns span {font-size: 16px;}
+
+/* about_txt */
+#about .about_tit .about_txt {float: none; width: 100%;  padding: 0;}
+
+/* Education , career */
+.Education  ,#about .career {margin-top: 20px; padding: 0 20px;}
+
+#about .praise { border-radius: 30px; height: 350px;}
+#about .praise li {width: calc(100%/2); font-size: 16px; margin-top: 15px;}
+#about .praise li img {width: 100px; height: 100px; margin-bottom: 10px;}
+
+/* #project */
+#project {width: 640px; height: 1000px; padding-top: 80px;}
+#project  .project_Swiper {width: 630px;  height: 500px; margin-left: 5px;}
+#project  .project_Swiper .swiper-slide {border-radius: 30px 30px 0 0;}
+#project  .project_Swiper .Swiper-img {float: none; width: 100%; padding: 20px; box-sizing: border-box;}
+#project .project_Swiper .Swiper-img .pc_img > img {width: 400px; height: 350px;}
+#project  .project_Swiper .Swiper-img .pc_img figure {top: 8%; left: 1%; width: 390px; height: 231px;}
+#project  .project_Swiper .Swiper-img .pc_img figure > p {width: 390px; }
+#project  .project_Swiper .Swiper-img .pc_img figure > p > img {width: 100%; height: 100%;}
+
+/* .mobile_img */
+#project  .project_Swiper .Swiper-img .mobile_img {right: 10%;}
+/* ---------- */
+#project  .project_Swiper .Swiper-img .center {bottom: -5%;}
+#project  .project_Swiper .Swiper-img .center img  {width: 260px; height: 400px;}
+#project  .project_Swiper .Swiper-img .center > figure {right: 20%; top: 16px;  width: 220px; height: 365px; border-radius: 25px;}
+
+
+
+/* .Swiper-txt  */
+#project  .project_Swiper .Swiper-txt {float: none; width: 100%; height: 330px; padding: 20px; background: #fff; box-sizing: border-box;}
+#project  .project_Swiper .Swiper-txt > h4 {font-size: 25px;}
+#project  .project_Swiper .Swiper-txt .txt span {font-size: 15px;}
+
+#project .project_Swiper .Swiper-txt .txt {margin-top: 10px; }
+#project  .project_Swiper .Swiper-txt  #New_Page {position: absolute; right: 50px; bottom: -60%;}
+
+/* #contact */
+#contact {height: 1000px; margin-top: 100px;}
+#contact .Comments {font-size: 15px;}
+#contact .my_img {position: absolute; right: 30px; bottom: 20px; width: 150px; height: 120px;}
+#contact .my_img img {width: 100%; height: 100%;}
+
+.Formspree {float: none; width: 100%;}
+.Formspree form  {margin-top: 20px;}
+.Formspree form label p {font-size: 15px;}
+.Formspree form label #email {width: 100%;}
+.Formspree form label #message {width: 100%; height: 100px;}
+.Formspree #btn {padding: 10px 25px;}
+
+.kakao {float: none; margin-top: 30px;}
+.kakao p {height: 0;}
+.kakao p img {width: 200px; height: 200px;}
+
+/* 움직이는 텍스트 */
+.contact-wrap {animation: textLoop 19s linear infinite; padding-right: 20px;}
