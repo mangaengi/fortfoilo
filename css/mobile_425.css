@@ -78,12 +78,12 @@ nav.on > .gnb > li > a {line-height: 70px; padding: 0;}
 
 
 /* #project */
-#project {width: 425px; height: 100%; padding-top: 50px;}
-#project  .project_Swiper {width: 420px; }
+#project {width: 100%; height: 100%; padding-top: 50px;}
+#project  .project_Swiper  {max-width: 100%;  height: 100%;}
 #project  .project_Swiper .Swiper-img {float: none; width: 100%; height: 350px; padding: 20px; box-sizing: border-box;}
-#project .project_Swiper .Swiper-img .pc_img > img {width: 380px; height: 300px;}
+#project .project_Swiper .Swiper-img .pc_img > img {width: 340px; height: 300px;}
 #project  .project_Swiper .Swiper-img .pc_img figure {top: 11%; left: 2%; width:  375px; height: 210px;}
-#project  .project_Swiper .Swiper-img .pc_img figure > p {width: 350px;}
+#project  .project_Swiper .Swiper-img .pc_img figure > p {width: 305px;}
 #project  .project_Swiper .Swiper-img .pc_img figure > p > img {width: 100%; height: 100%;}
 
 
@@ -93,12 +93,19 @@ nav.on > .gnb > li > a {line-height: 70px; padding: 0;}
 #project  .project_Swiper .Swiper-img .mobile_img figure > p {position: absolute; top: 0px; right: 0; width: 130px; }
 #project  .project_Swiper .Swiper-img .mobile_img figure > p > img {width: 100%; height: 100%; border-radius: 10px;} 
 
+/* .mobile_img */
+#project  .project_Swiper .center .mobile_img {right: 3%; bottom: 0;}
+
+
 /* ---------- */
-#project  .project_Swiper .Swiper-img .center {position: absolute; left: 50%; top: 30px;; transform: translateX(-50%); width: 200px; height: 500px; }
-#project  .project_Swiper .Swiper-img .center > img  {width: 200px; height: 300px;}
-#project  .project_Swiper .Swiper-img .center > figure {left: 8%; top: 13px;  width: 180px; height: 275px; border-radius: 20px;}
-#project  .project_Swiper .Swiper-img .center > figure > p  {width: 170px;}
-#project  .project_Swiper .Swiper-img .center > figure > p > img {width: 100%; height: 100%; border-radius: 20px;} 
+#project  .project_Swiper .center {height: 350px; bottom: 0;}
+#project  .project_Swiper .center .center_img img {width: 180px; height: 280px;}
+
+#project .project_Swiper .center .center_img > figure {width: 150px; height: 260px; left: 15px; top: 10px; border-radius: 20px;}
+#project .project_Swiper .center .center_img > figure p {width: 100%;}
+#project  .project_Swiper .center .center_img {right: 50%; bottom: 30%;}
+#project  .project_Swiper .Swiper-img .mobile_img figure > p > img {border-radius: 20px;}
+ 
 
 /* .Swiper-txt  */
 #project  .project_Swiper .Swiper-txt {float: none; width: 100%; height: 380px; padding: 20px; background: #fff; box-sizing: border-box;}
@@ -122,7 +129,7 @@ nav.on > .gnb > li > a {line-height: 70px; padding: 0;}
 .Formspree #btn {padding: 8px 20px; margin-bottom: 20px;}
 
 .kakao {float: none; width: 330px; margin-top: 30px; padding: 0 30px;}
-.kakao p {width: 100%;}
-.kakao p img {width: 150px; height: 150px; margin-top: 40px;}
+.kakao a{width: 100%;}
+.kakao  a img {width: 150px; height: 150px; margin-top: 40px;}
 
 .contact-text {display: none;}

@@ -156,12 +156,16 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 #project  .project_Swiper .Swiper-img .mobile_img > figure {position: absolute; right: 15px; top: 13px;  width: 150px; height: 275px; overflow: hidden; border-radius: 15px; }
 #project  .project_Swiper .Swiper-img .mobile_img figure > p {position: absolute; top: 0px; left: 0; width: 150px; }
 #project  .project_Swiper .Swiper-img .mobile_img figure > p > img {width: 100%; height: 100%; border-radius: 15px;} 
+
 /* --------- */
-#project  .project_Swiper .Swiper-img .center {position: absolute; left: 50%; bottom: 15%; transform: translateX(-50%); width: 300px; height: 500px; }
-#project  .project_Swiper .Swiper-img .center img {width: 300px; height: 500px; }
-#project  .project_Swiper .Swiper-img .center > figure {position: absolute; right: 23px; top: 20px;  width: 255px; height: 458px; overflow: hidden; border-radius: 30px; }
-#project  .project_Swiper .Swiper-img .center figure > p {position: absolute; top: 0px; left: 0; width: 255px;}
-#project  .project_Swiper .Swiper-img .center figure > p > img {width: 100%; height: 100%; border-radius: 30px;} 
+
+#project  .project_Swiper .center {height: 600px; bottom: 0;}
+#project  .project_Swiper .center .center_img img {width: 280px; height: 440px;}
+
+#project .project_Swiper .center .center_img > figure {width: 240px; height: 405px; left: 20px; top: 18px; border-radius: 30px;}
+#project .project_Swiper .center .center_img > figure p {width: 100%;}
+#project  .project_Swiper .center .center_img {right: 50%; bottom: 30%;}
+#project  .project_Swiper .Swiper-img .mobile_img figure > p > img {border-radius: 20px;}
 
 #project  .project_Swiper .Swiper-txt {float: left; width: 40%; height: 100%; padding: 120px 30px; box-sizing: border-box;}
 #project  .project_Swiper .Swiper-txt > h4 {font-size: 40px;}
@@ -171,26 +175,27 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 #project  .project_Swiper .Swiper-txt  #New_Page {width: 100px; height: 40px; margin-top: 30px; border: none; border-radius: 30px; transition: all 0.3s; cursor: pointer; background: #585858; color: #fff; line-height: 2.5; text-align: center;}
 #project  .project_Swiper .Swiper-txt  #New_Page:hover {transform: scale(1.1);}
 
+
 /* contact */
-#contact {position: relative; height: 90vh; background: #E2DED1; padding: 30px; box-sizing: border-box;} 
+#contact {position: relative; height: 90vh; background: #E2DED1; padding: 30px; box-sizing: border-box; margin-top: 30px;} 
 #contact .Comments {font-size: 17px; color: rgba(0,0,0,0.5);}
 
 #contact .my_img {position: absolute; right: 50px; bottom: 50px;}
 
-.Formspree {width: 800px; float: left;}
+.Formspree {width: 500px; float: left;}
 .Formspree form {margin-top: 45px;}
 .Formspree form label p {margin-bottom: 10px; font-size: 17px;}
 .Formspree form label #email {width: 100%; height: 50px; margin-bottom: 20px;  padding: 15px; box-sizing: border-box; border: none; border: 1px solid #a3a3a3; outline: #a3a3a3;}
 
-.Formspree form label #message {max-width: 100%; height: 150px; resize: none; padding: 15px;  border: none; border: 1px solid #a3a3a3; outline: #a3a3a3; box-sizing: border-box;}
+.Formspree form label #message {width: 100%; height: 150px; resize: none; padding: 15px;  border: none; border: 1px solid #a3a3a3; outline: #a3a3a3; box-sizing: border-box;}
 .Formspree #btn {display: block; margin-top: 10px; border: none; padding: 15px 40px; background: #585858; color: #fff; transition: all 0.3s;}
 .Formspree #btn:focus , .Formspree #btn:hover {background: #3a3a3a;}
 
-.kakao {float: left; width: 400px;}
+.kakao {float: right; width: 500px;}
 
-.kakao p {width: 400px; height: 30px;}
-.kakao p img {width: 300px; height: 300px; transition: all 0.3s; margin-top: 50px;}
-.kakao p img:hover {transform: scale(1.01); box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+.kakao {width: 500px;}
+.kakao img {width: 300px; height: 300px; transition: all 0.3s; margin-top: 50px;}
+.kakao img:hover {transform: scale(1.01); box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
 
 /* 움직이는 텍스트 */
 .contact-text {display: flex; flex: 0 0 auto; white-space: nowrap; overflow: hidden; transition: 0.3s; font-size: 40px; font-weight: 500; color: #f1efe9e1; padding: 10px 0;}

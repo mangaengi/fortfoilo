@@ -19,7 +19,7 @@ $(function(){
     }else {
       t=0;
     }
-    $(" figure > .p_img_dokdo").animate({top: -170 * t + "px"},{height: 100 + "%"})
+    $(" figure > .p_img_dokdo").animate({top: -130 * t + "px"},{height: 100 + "%"})
   }
   setInterval(contents,2800)
 })
@@ -73,7 +73,7 @@ $(function(){
     }else {
       t=0;
     }
-    $(" figure > .p_img_smn").animate({top: -180 * t + "px"},{height: 100 + "%"})
+    $(" figure > .p_img_smn").animate({top: -160 * t + "px"},{height: 100 + "%"})
   }
   setInterval(contents,2800)
 })
