@@ -76,11 +76,11 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 #about {height: 100%;}
 #about .about_tit { height: 500px; padding: 0 60px;}
 
-#about .about_tit figure img {width: 300px; height: 350px;} 
+#about .about_tit figure img {width: 300px; height: 350px; padding: 30px 40px; box-sizing: border-box;} 
 #about .about_tit figure #My_Page {border: none; background: #585656; padding: 20px 50px; color: #fff; font-size: 17px;}
 
 .container {position: relative;}
-.circle, .circle span, .circle-box{ position:absolute; display:block; left:50%;transform:translate(-50%,-50%);}
+.circle, .circle span, .circle-box{ position:absolute; display:block; left:50%; bottom: -50px; transform:translate(-50%,-50%);}
 .circle-box{ width: 89px; height: 37px; cursor:pointer;}
 .circle{top:40%; width: 89px; height: 37px;}
 .circle span{top:50%; font-size:15px;}
@@ -120,7 +120,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 .about_tit .about_img_txt p {font-size: 22px; margin-bottom: 10px;}
 
 /* sns */
-.about_tit .about_img_txt .sns {margin-top: 100px; border: 1px solid rgba(0, 0, 0, 0.1); padding: 10px 20px; box-sizing: border-box;}
+.about_tit .about_img_txt .sns {margin-top: 100px; border: 1px solid rgba(0, 0, 0, 0.1); padding: 10px; box-sizing: border-box;}
 .about_tit .about_img_txt .sns img{width: 25px; height: 25px;}
 .about_tit .about_img_txt .sns span {font-size: 17px; display: inline-block; transform: translateY(-8px); margin-left: 10px;}
 
