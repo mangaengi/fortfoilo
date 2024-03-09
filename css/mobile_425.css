@@ -118,8 +118,10 @@ nav.on > .gnb > li > a {line-height: 70px; padding: 0;}
 /* #contact */
 #contact {height: 900px; padding: 5px 0;}
 #contact .Comments {font-size: 15px;}
-#contact .my_img {position: absolute; right: 30px; bottom: 20px; width: 120px; height: 100px;}
+#contact .my_img {position: absolute; right: 30px; bottom: 20px; width: 100px; height: 90px;}
 #contact .my_img img {width: 100%; height: 100%;}
+
+#contact > .inner > h2 {margin: 20px 0 30px 20px;}
 
 .Formspree {float: none; width: 100%; padding: 0 20px; box-sizing: border-box;}
 .Formspree form label #email {width: 100%;}
@@ -129,6 +131,7 @@ nav.on > .gnb > li > a {line-height: 70px; padding: 0;}
 
 .kakao {float: none; width: 100%; margin-top: 30px; padding: 0 30px; box-sizing: border-box;}
 .kakao a{width: 100%;}
-.kakao  a img {width: 150px; height: 150px; margin-top: 40px;}
+.kakao  a img {width: 180px; height: 180px; margin-top: 40px;}
 
-.contact-text {display: none;}
+/* 움직이는 텍스트 */
+.animated-title {display: none;}
