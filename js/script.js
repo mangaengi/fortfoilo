@@ -132,9 +132,6 @@ $(function(){
                 $('header').removeClass('bg')
             }
         })
-        
-        
-  
     })
   })
 

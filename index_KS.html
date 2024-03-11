@@ -11,12 +11,20 @@
     <link rel="stylesheet" href="css/index_sub_mobile_640.css" media="all and (min-width:426px) and (max-width: 640px)">
     <link rel="stylesheet" href="css/index_sub_mobile_425.css" media="all and (max-width: 425px)">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 </head>
+
 <body>
     <div id="wrap">
         <header>
             <figure class="ks_banner banner"></figure>
             <h1># KS_벽지</h1>
+            <section id="btn_area">
+                <div>
+                    <a href="javascript:;" class="btn" onclick="newPage_ks()">보러가기</a>
+                    <a href="index.html" class="btn">돌아가기</a>
+                </div>
+            </section>
         </header>
         <div class="content">
             <section id="Overview">
@@ -35,16 +43,10 @@
                 <div class="inner">
                     <h2># 페이지 구성</h2>
                     <ul class="page_area clear">
-                        <li><p>index</p></li>
+                        <li><p>INDEX</p></li>
                         <li> 
-                            <p>sub</p>
-                            <ul>
-                                <li>계열사</li>
-                                <li>회사소개</li>
-                                <li>제품소개</li>
-                                <li>인증 및 수상</li>
-                                <li>1:1 문의</li>
-                            </ul>
+                            <p>SUB</p>
+                            <span>계열사 / 회사소개 / 제품소개 / 인증 및 수상 / 1:1 문의</span>
                         </li>
                     </ul>
                     
@@ -65,13 +67,7 @@
                     </div>
                     <div class="Tools">
                         <h2># 사용스킬</h2>
-                        <ul>
-                            <li>javascript</li>
-                            <li>Jquery</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Photoshop</li>
-                        </ul>
+                        <P>javascript / Jquery / HTML / CSS / Photoshop</P>
                     </div>
                     <div class="color">
                         <h2># 사용한 색상</h2>
@@ -92,30 +88,63 @@
                     </div>
                 </div>
             </section>
-            <section id="btn_area">
-                <div>
-                    <a href="javascript:;" class="btn" onclick="newPage_ks()">보러가기</a>
-                    <a href="index.html" class="btn">돌아가기</a>
-                </div>
-            </section>
         </div>
-        <div class="img_area clear">
-            <div class="pc_img">
-                <h2># pc버전</h2>
-                <img src="img/project/project_ks/ks_img02.png" alt="ks_벽지 pc버전">
+        <div class="tab_group">
+            <nav class="tab">
+                <ul>
+                    <li class="on"><button>PC버전</button></li>                        
+                    <li><button>MOBILE버전</button></li>
+                </ul>
+            </nav>
+            <div class="tab_content  on">
+                <div class="pc_tab">
+                    <p><img src="img/project/project_ks/ks_img01.png" alt="ks_벽지 pc버전"></p>
+                    <p><img src="img/project/project_ks/ks_img02.png" alt="ks_벽지 pc버전"></p>
+                </div>
             </div>
-            <div class="mobile_img">
-                <h2># mobile버전</h2>
-                <img src="img/project/project_ks/ks_img01.png"  alt="ks_벽지 mobile버전">
+            <div class="tab_content">
+                <div class="mobile_tab">
+                    <p><img src="img/project/project_ks/ks_img03.png"  alt="ks_벽지 mobile버전"></p>
+                    <p><img src="img/project/project_ks/ks_img04.png"  alt="ks_벽지 mobile버전"></p>
+                </div>
+            </div>
+
+
+            <div class="tab_content mo on">
+                <div class="pc_tab">
+                    <p><img src="img/project/project_ks/ks_img1.png" alt="ks_벽지 pc버전"></p>
+                </div>
+            </div>
+            <div class="tab_content mo ">
+                <div class="mobile_tab">
+                    <p><img src="img/project/project_ks/ks_img2.png"  alt="ks_벽지 mobile버전"></p>
+                </div>
             </div>
         </div>
     </div>
     <script>
-        
         /* ks_벽지 페이지 이동 */
         function newPage_ks()  {
         window.open('https://mangaengi.github.io/portfoilo_ks/');
         }
+
+        /* 탭메뉴 */
+        $(function(){
+        let tab = $('.tab li');
+        
+        tab.on('click', function(){
+            let idx = $(this).index();
+            let tab_cont = $(this).parents('.tab').siblings('.tab_content').eq(idx);
+
+            $(this).addClass('on');
+
+            $(this).siblings().removeClass('on')
+
+            tab_cont.addClass('on');
+            tab_cont.siblings().removeClass('on')
+            })
+        });
     </script>
+
 </body>
 </html>
