@@ -156,19 +156,3 @@ $(function(){
       }
   });
 });
-
-
-
-function disableScreenBlock() {
-
-	var pos = $(window).scrollTop();
-
-	console.log("disableScreenBlock");
-
-	if(pos == 0) {
-		$("#screen-block").addClass("hide");
-	}
-	else {
-		$("#screen-block").css({"display": "none"});
-	}
-}
