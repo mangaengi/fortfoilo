@@ -2,7 +2,7 @@
 
 #wrap {max-width: 100%; overflow: hidden;}
 header .banner {max-width: 100%; height: 40vh;}
-header h1 {font-size: 35px;}
+header h1 {font-size: 30px;}
 .img_area {float: none; width: 100%; border-right: none;}
 h2 {font-size: 22px;}
 
@@ -16,9 +16,9 @@ h2 {font-size: 22px;}
 .color ul {padding: 5px;}
 
 /* .btn */
-.btn {padding: 20px 50px;}
-#btn_area {height: 100%;}
-#btn_area div {padding: 30px 0; box-sizing: border-box;} 
+.btn {padding: 10px 15px; font-size: 15px;}
+#btn_area {width: 100%; text-align: center;}
+
 
 /* img_area */
 .img_area  {width: 100%; padding: 40px; box-sizing: border-box;}
@@ -26,7 +26,18 @@ h2 {font-size: 22px;}
 
 .img_area .mobile_img {width: 100%;}
 
+/* .tab_group */
+.tab_group {width: 100%;}
+
+/* .tab_group > .tab */
+.tab_content .pc_tab p  {width: 100%;}
+.tab_content .mobile_tab p {width: 50%;}
+
 /* center */
 .img_area .center ul {width: 410px;}
 .img_area .center ul li {width: calc(100%/2 - 10px); margin-left: 10px;}
 .img_area .center ul li img {width: 100%;}
+
+.tab_content .center_pc_tab > p {width: 50%;}
+
+.tab ul li button {font-size: 10px;}

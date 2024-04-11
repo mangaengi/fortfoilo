@@ -79,7 +79,12 @@ header h1 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -
 .tab_content .pc_tab p {float: left; width: 50%; padding: 0 5px; box-sizing: border-box;}
 .tab_content .pc_tab img {width: 100%;}
 
-
 .tab_content .mobile_tab {width: 100%; }
-.tab_content .mobile_tab p {float: left; width: 50%; padding: 0 5px; box-sizing: border-box;}
+.tab_content .mobile_tab p {float: left; width: 40%; padding: 0 5px; box-sizing: border-box;}
 .tab_content .mobile_tab img {width: 100%;}
+
+/* center */
+.tab_content .center_pc_tab {width: 100%; }
+.tab_content .center_pc_tab > p {float: left; width: 25%; padding: 0 5px; box-sizing: border-box;}
+.tab_content .center_pc_tab img {width: 100%;}
+.tab_content .center_pc_tab span {font-size:  20px;}

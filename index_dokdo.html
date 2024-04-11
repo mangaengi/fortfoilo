@@ -17,6 +17,12 @@
         <header>
             <figure class="dokdo_banner banner"></figure>
             <h1># 독도전시관</h1>
+            <section id="btn_area">
+                <div>
+                    <a href="#" class="btn" onclick="newPage_dokdo()">보러가기</a>
+                    <a href="index.html" class="btn">돌아가기</a>
+                </div>
+            </section>
         </header>
         <div class="content">
             <section id="Overview">
@@ -37,14 +43,7 @@
                         <li><p>index</p></li>
                         <li> 
                             <p>sub</p>
-                            <ul>
-                                <li>인사말</li>
-                                <li>관람안내</li>
-                                <li>전시안내</li>
-                                <li>독도현황</li>
-                                <li>공지사항</li>
-                                <li>로그인</li>
-                            </ul>
+                            <span>인사말 / 관람안내 / 전시안내 / 독도현황 / 공지사항 / 로그인</span>
                         </li>
                     </ul>
                     
@@ -66,13 +65,7 @@
                     </div>
                     <div class="Tools">
                         <h2># 사용스킬</h2>
-                        <ul>
-                            <li>javascript</li>
-                            <li>Jquery</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Photoshop</li>
-                        </ul>
+                        <P>javascript / Jquery / HTML / CSS / Photoshop</P>
                     </div>
                     <div class="color">
                         <h2># 사용한 색상</h2>
@@ -93,22 +86,35 @@
                     </div>
                 </div>
             </section>
-            <section id="btn_area">
-                <div>
-                    <a href="#" class="btn" onclick="newPage_dokdo()">보러가기</a>
-                    <a href="index.html" class="btn">돌아가기</a>
-                </div>
-            </section>
         </div>
-        <div class="img_area clear">
+<!--         <div class="img_area clear">
             <div class="pc_img">
                 <h2># pc버전</h2>
                 <img src="img/project/project_dokdo/dokdo_img01.png" alt="독도pc버전">
             </div>
-<!--             <div class="mobile_img">
+            <div class="mobile_img">
                 <h2># mobile버전</h2>
                 <img src="img/project/project_dokdo/dokdo_img02.png"  alt="독도 mobile버전">
-            </div> -->
+            </div>
+        </div> -->
+
+        <div class="tab_group">
+            <nav class="tab">
+                <ul>
+                    <li class="on"><button>PC버전</button></li>                        
+                </ul>
+            </nav>
+            <div class="tab_content  on">
+                <div class="pc_tab">
+                    <p><img src="img/project/project_dokdo/dokdo_img01-1.png" alt="독도pc버전"></p>
+                    <p><img src="img/project/project_dokdo/dokdo_img01-2.png" alt="독도pc버전"></p>
+                </div>
+            </div>
+            <div class="tab_content mo on">
+                <div class="pc_tab">
+                    <p><img src="img/project/project_ks/ks_img1.png" alt="ks_벽지 pc버전"></p>
+                </div>
+            </div>
         </div>
     </div>
     <script>

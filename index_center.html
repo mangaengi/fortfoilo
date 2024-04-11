@@ -11,12 +11,19 @@
     <link rel="stylesheet" href="css/index_sub_mobile_640.css" media="all and (min-width:426px) and (max-width: 640px)">
     <link rel="stylesheet" href="css/index_sub_mobile_425.css" media="all and (max-width: 425px)">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 </head>
 <body>
     <div id="wrap">
         <header>
             <figure class="center_banner banner"></figure>
             <h1># CENTER</h1>
+            <section id="btn_area">
+                <div>
+                    <a href="javascript:;" class="btn" onclick="newPage_center()">보러가기</a>
+                    <a href="index.html" class="btn">돌아가기</a>
+                </div>
+            </section>
         </header>
         <div class="content">
             <section id="Overview">
@@ -34,15 +41,7 @@
                         <li><p>index</p></li>
                         <li> 
                             <p>sub</p>
-                            <ul>
-                                <li>메뉴</li>
-                                <li>상품 리스트</li>
-                                <li>상품 올리기</li>
-                                <li>상품 페이지</li>
-                                <li>수정</li>
-                                <li>로그인</li>
-                                <li>회원가입</li>
-                            </ul>
+                            <span>메뉴 / 상품 리스트 / 상품 올리기 / 상품 페이지 / 수정 / 로그인 / 회원가입</span>
                         </li>
                     </ul>
                     
@@ -58,20 +57,11 @@
                 <div class="inner">
                     <div class="font">
                         <h2># 사용한 폰트</h2>
-                        <p>Pretendard</p>
-                        <p>Noto Serif KR</p>
+                        <p>Pretendard / Noto Serif KR</p>
                     </div>
                     <div class="Tools">
                         <h2># 사용스킬</h2>
-                        <ul>
-                            <li>javascript</li>
-                            <li>Jquery</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>XD</li>
-                            <li>PowerPoint</li>
-                            <li>Firebase</li>
-                        </ul>
+                        <P>javascript / Jquery / HTML / CSS / XD / PowerPoint / Firebase</P>
                     </div>
                     <div class="color">
                         <h2># 사용한 색상</h2>
@@ -92,52 +82,55 @@
                     </div>
                 </div>
             </section>
-            <section id="btn_area">
-                <div>
-                    <a href="javascript:;" class="btn" onclick="newPage_center()">보러가기</a>
-                    <a href="index.html" class="btn">돌아가기</a>
-                </div>
-            </section>
         </div>
-        <div class="img_area clear">
-            <div class="mobile_img center">
-                <h2># mobile버전</h2>
+        <div class="tab_group">
+            <nav class="tab">
                 <ul>
-                    <li>
-                        <p>-메인</p>
+                    <li class="on"><button>메인 / 메뉴</button></li>                        
+                    <li><button>로그인 / 회원가입</button></li>
+                    <li><button>업로드 / 상품리스트 / 상품디테일</button></li>
+                </ul>
+            </nav>
+            <div class="tab_content  on">
+                <div class="center_pc_tab">
+                    <p>
+                        <span>메인</span>
                         <img src="img/project/project_center/center_main.png" alt="center mobile버전">
-                    </li>
-                    <li>
-                        <p>-메뉴</p>
+                    </p>
+                    <p>
+                        <span>메뉴</span>
                         <img src="img/project/project_center/center_meun.png" alt="center mobile버전">
-                    </li>
-                    <li>
-                        <p>-로그인</p>
-                        <img src="img/project/project_center/center_login.png" alt="center mobile버전">
-                    </li>
-                    <li>
-                        <p>-회원가입</p>
-                        <img src="img/project/project_center/center_membership.png" alt="center mobile버전">
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <p>-업로드</p>
-                        <img src="img/project/project_center/cenrer_upload.png" alt="center mobile버전">
-                    </li>
-                    <li>
-                        <p>-상픔리스트</p>
-                        <img src="img/project/project_center/center_list.png" alt="center mobile버전">
-                    </li>
-                    <li>
-                        <p>-상품디테일</p>
-                        <img src="img/project/project_center/center_list-detile.png" alt="center mobile버전">
-                    </li>
-                    
-                </ul>
+                    </p>
+                </div>
             </div>
-            <div class="mobile_img">
-                
+            <div class="tab_content">
+                <div class="center_pc_tab">
+                    <p>
+                        <span>로그인</span>
+                        <img src="img/project/project_center/center_login.png" alt="center mobile버전">
+                    </p>
+                    <p>
+                        <span>회원가입</span>
+                        <img src="img/project/project_center/center_membership.png" alt="center mobile버전">
+                    </p>
+                </div>
+            </div>
+            <div class="tab_content">
+                <div class="center_pc_tab">
+                    <p>
+                        <span>업로드</span>
+                        <img src="img/project/project_center/cenrer_upload.png" alt="center mobile버전">
+                    </p>
+                    <p>
+                        <span>상품리스트</span>
+                        <img src="img/project/project_center/center_list.png" alt="center mobile버전">
+                    </p>
+                    <p>
+                        <span>상품디테일</span>
+                        <img src="img/project/project_center/center_list-detile-1.png" alt="center mobile버전">
+                    </p>
+                    <p><img src="img/project/project_center/center_list-detile -2.png" alt="center mobile버전"></p>
+                </div>
             </div>
         </div>
     </div>
@@ -147,6 +140,23 @@
         function newPage_center()  {
         window.open('https://centert-3ae9f.web.app/');
         }
+
+        /* 탭메뉴 */
+        $(function(){
+        let tab = $('.tab li');
+        
+        tab.on('click', function(){
+            let idx = $(this).index();
+            let tab_cont = $(this).parents('.tab').siblings('.tab_content').eq(idx);
+
+            $(this).addClass('on');
+
+            $(this).siblings().removeClass('on')
+
+            tab_cont.addClass('on');
+            tab_cont.siblings().removeClass('on')
+            })
+        });
     </script>
 </body>
 </html>
