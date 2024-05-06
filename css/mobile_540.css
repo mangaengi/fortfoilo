@@ -30,10 +30,6 @@ nav.on > .gnb > li > a {line-height: 80px; padding: 0;}
 
 #Home .Home_smailtxt {display: none;}
 
-/* Scroll */
-.Scroll a span {bottom: 38%;}
-.Scroll a span:nth-of-type(2) {bottom: 36%;}
-.Scroll a span:nth-of-type(3) {bottom: 34%;}
 
 /* #about */
 #about .about_tit figure #My_Page {padding: 15px 30px;}

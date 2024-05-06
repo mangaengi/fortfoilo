@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+body {background: #f8f8f8; color: #585858;}
+h2 {margin: 20px 0 10px 0 ; color: #111;}
+
+
+header .ks_banner , header .dokdo_banner , header .sma_banner , header .center_banner {height: 45vh;}
+
+/* btn */
+.btn {padding: 15px 30px; box-sizing: border-box;}
+
+/* .content */
+.content {float: none; width: 100%;}
+
+/* color */
+.color ul {height: 150px;}
+.color ul li {height: 90px;}
+
+
+/* .tab_group */
+.tab_group {float: none; width: 100%;}
+
+/* 모바일 탭 */
+.tab_content .mobile_tab p {width: 50%;}
+
+/* center */
+.tab_content .center_pc_tab > p {width: 45%;}

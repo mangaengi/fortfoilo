@@ -27,11 +27,6 @@ nav.on > .gnb > li > a {line-height: 70px; padding: 0;}
 
 #Home .Home_smailtxt {display: none;}
 
-/* Scroll */
-.Scroll a span {bottom: 48%; width: 16px; height: 16px; }
-.Scroll a span:nth-of-type(2) {bottom: 46%;}
-.Scroll a span:nth-of-type(3) {bottom: 44%;}
-
 /* #about */
 #about .about_tit {padding: 0; max-width: 100%; height: 100%;}
 #about .about_tit figure #My_Page {padding: 10px 15px;}

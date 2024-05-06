@@ -5,7 +5,7 @@ body {background: #f1efe9;}
 .inner {width: 100%; margin: 0 auto; padding: 0 50px; box-sizing: border-box;}
 
 h1 {float: left; width: 60%; margin-top: 10px;}
-h2 {font-size: 50px; margin: 60px 0;}
+h2 {font-size: 50px; padding: 60px 0; box-sizing: border-box;}
 h3 {font-size: 35px;}
 h4 {font-size: 26px; margin-bottom: 15px;}
 
@@ -28,7 +28,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 .Side_menu.on  {position: fixed; top: 50px;}
 
 /* Home */
-#Home { height: 90vh;}
+#Home { height: 90vh; position: relative;}
 #Home > .inner {position: relative; display: flex; justify-content: center; align-items: center; flex-direction: column;}
 
 #Home .Home_Bigtxt {position: absolute; left: 20%; top: 20%; width: 750px; height: 400px; background: #f1efe9; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; text-align: center; line-height: 1.8;}
@@ -106,8 +106,8 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 #mudalContents #close {border: none; background: #fff; position: absolute; right: 30px; top: 30px; font-size: 30px; cursor: pointer;}
 
 #mudalContents p strong {position: absolute; top: 5px; transform: translateX(-50%); font-size: 23px; background: #fff; padding: 0 15px;}
-#mudalContents .skil {float: right; width: 48%;  height: 100px; border: 1px solid rgba(0,0,0,0.2); padding: 35px 0; box-sizing: border-box;}
-#mudalContents .skil > li {float: left; width: calc(100%/7); transition: all 0.3s;}
+#mudalContents .skil {float: right; width: 48%;  height: 100px; border: 1px solid rgba(0,0,0,0.2); line-height: 8;}
+#mudalContents .skil > li {float: left; width: calc(100%/7); height: 100%; transition: all 0.3s;}
 #mudalContents .skil > li img {width: 35px; height: 35px; margin-right: 0;}
 #mudalContents .skil > li:hover {transform: translatey(-5px);}
 
@@ -125,7 +125,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 .about_tit .about_img_txt .sns span {font-size: 17px; display: inline-block; transform: translateY(-8px); margin-left: 10px;}
 
 /* about_txt */
-#about .about_tit .about_txt {float: left; width: 30%; line-height: 1.6; padding: 30px;}
+#about .about_tit .about_txt {float: left; width: 30%; line-height: 1.6; padding: 30px; box-sizing: border-box;}
 #about .about_tit .about_txt .Education {font-size: 17px;}
 
 /* career */
