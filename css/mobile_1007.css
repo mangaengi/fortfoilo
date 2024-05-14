@@ -19,25 +19,18 @@ nav {width: 50%;}
 #Home {height: 600px; padding: 0 30px; box-sizing: border-box;}
 #Home .Home_Bigtxt {left: 0px; top: 50px; width: 100%;}
 #Home .Home_smailtxt {display: none;}
-
 .Home_Bigtxt .bigtxt-txt .bigtxt_one {font-size: 45px;}
 
 /* 모달박스 */
 #modalBox {padding: 0 15px; box-sizing: border-box;}
-
-
 #mudalContents {padding: 30px 10px; box-sizing: border-box;}
-
 #mudalContents > img {padding: 10px; box-sizing: border-box;}
-
 #mudalContents p {font-size: 15px;}
-
 
 /* #about  */
 #about {padding: 10px; box-sizing: border-box;}
 
 #about .about_tit {height: 100%; padding: 0 10px;}
-
 #about .about_tit .about_img::before {display: none;}
 #about .about_tit .about_img {float: none; width: 100%;}
 
@@ -50,7 +43,6 @@ nav {width: 50%;}
 
 #about .praise li {padding: 0 15px; box-sizing: border-box; font-size: 13px;}
 #about .praise li img {width: 110px; height: 110px;}
-
 
 /* #project */
 #project {padding: 10px; box-sizing: border-box;}
@@ -91,7 +83,6 @@ nav {width: 50%;}
 #project .project_Swiper .Swiper-txt .txt {margin-top: 15px;}
 
 #project .project_Swiper .center .center_img {right: 50%;bottom: 30%;}
-
 
 /* #contact */
 .animated-title {display: none;}
