@@ -7,10 +7,10 @@ h2 {margin: 20px 0 10px 0 ; color: #111;}
 
 header {position: relative;}
 
-header .dokdo_banner {height: 60vh; background: url(../img/index_dokdo/dokdo1.jpg) no-repeat fixed center/cover;}
-header .ks_banner {height: 60vh; background: url(../img/index_ks/ks1.jpg) no-repeat fixed center/cover;}
-header .sma_banner {height: 60vh; background: url(../img/index_sma/sma1.jpg) no-repeat fixed center/cover;}
-header .center_banner {height: 60vh; background: url(../img/index_ks/ks1.jpg) no-repeat fixed center/cover;}
+header .dokdo_banner {height: 40vh; background: url(../img/index_dokdo/dokdo1.jpg) no-repeat fixed center/cover;}
+header .ks_banner {height: 40vh; background: url(../img/index_ks/ks1.jpg) no-repeat fixed center/cover;}
+header .sma_banner {height: 40vh; background: url(../img/index_sma/sma1.jpg) no-repeat fixed center/cover;}
+header .center_banner {height: 40vh; background: url(../img/index_ks/ks1.jpg) no-repeat fixed center/cover;}
 
 
 header h1 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 58px;}
@@ -28,7 +28,7 @@ header h1 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -
 
 
 /* Overview */
-#Overview  p {width: s; margin-bottom: 20px;}
+#Overview  p { margin-bottom: 20px;}
 
 /* pages */
 #pages .page_area > li p {display: inline-block; padding: 5px 10px; text-align: center; border: 1px solid #c9c9c9; margin: 5px 0 ;}
