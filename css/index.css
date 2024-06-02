@@ -185,7 +185,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #2b69b2; color: #fff;}
 #project  .project_Swiper .Swiper-txt .txt {margin-top: 30px;}
 #project  .project_Swiper .Swiper-txt .txt span {font-size: 18px; line-height: 1.7;}
 
-#project  .project_Swiper .Swiper-txt  #New_Page {width: 100px; height: 40px; margin-top: 30px; border: none; border-radius: 30px; transition: all 0.3s; cursor: pointer; background: #585858; color: #fff; line-height: 2.5; text-align: center;}
+#project  .project_Swiper .Swiper-txt  #New_Page {width: 100px; height: 50px; margin-top: 30px; border: none; border-radius: 30px; transition: all 0.3s; cursor: pointer; background: #585858; color: #fff; line-height: 3; text-align: center; font-size: 18px;}
 #project  .project_Swiper .Swiper-txt  #New_Page:hover {transform: scale(1.1);}
 
 
