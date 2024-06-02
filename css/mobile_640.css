@@ -28,6 +28,8 @@ nav.on > .gnb > li > a {line-height: 80px; padding: 0;}
 .Home_Bigtxt .bigtxt-txt .bigtxt_one {font-size: 30px;}
 .Home_Bigtxt .bigtxt-txt  .bigtxt_two {font-size: 18px;}
 
+.Home_Bigtxt .bigtxt-txt .bigtxt_one span {font-size: 25px;}
+
 #Home .Home_smailtxt {display: none;}
 
 /* #about */

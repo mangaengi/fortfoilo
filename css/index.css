@@ -1,10 +1,9 @@
 @charset "utf-8";
 
 * { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
-body {background: #f1efe9;}
 .inner {width: 100%; margin: 0 auto; padding: 0 50px; box-sizing: border-box;}
 
-h1 {float: left; width: 60%; margin-top: 10px;}
+h1 {float: left; width: 60%; height: 100px;}
 h2 {font-size: 50px; padding: 60px 0; box-sizing: border-box;}
 h3 {font-size: 35px;}
 h4 {font-size: 26px; margin-bottom: 15px;}
@@ -18,29 +17,29 @@ header a img {height: 100%;}
 nav {float: left; width: 30%; font-size: 18px;}
 nav .gnb li {float: left; width: calc(100%/4); height: 100px; text-align: center; line-height: 100px;}
 nav .gnb li a {display: block; height: 100%; font-weight: 500;}
-nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
+nav .gnb li:hover, nav .gnb li:focus {background: #2b69b2; color: #fff;}
 
 
 /* 사이드메뉴 */
-.Side_menu {position: absolute; right: 0; top: 150px; background: #a09891; width: 150px; border-radius: 30px; z-index: 1;font-size: 18px;}
+.Side_menu {position: absolute; right: 0; top: 150px; background: #2b69b2; width: 150px; border-radius: 30px; z-index: 2; font-size: 18px;}
 .Side_menu ul li {width: 100%; height: 100%; text-align: center; color: #fff; transition: all 0.3s;}
 .Side_menu ul li a {display: block; width: 100%; height: 100%;  padding: 30px 40px; box-sizing: border-box; }
-.Side_menu ul li:hover {width: 100%; height: 100%; background: #6d6d6d; border-radius: 30px;}
+.Side_menu ul li:hover {width: 100%; height: 100%; background: #a6daf4; border-radius: 30px;}
 .Side_menu.on  {position: fixed; top: 50px;}
 
 /* Home */
-#Home { height: 90vh; position: relative;}
-#Home > .inner {position: relative; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+#Home { height: 80vh; position: relative;}
+#Home > .inner {position: relative; display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100%;}
 
-#Home .Home_Bigtxt {position: absolute; left: 20%; top: 20%; width: 750px; height: 400px; background: #f1efe9; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; text-align: center; line-height: 1.8;}
+#Home .Home_Bigtxt {width: 750px; height: 400px; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; line-height: 1.8;}
 #Home .Home_Bigtxt img {width: 100%; height: 100%;} 
 
 #Home .Home_Bigtxt .bigtxt-txt {position: absolute; top: 50%; transform: translateY(-50%);}
-.Home_Bigtxt .bigtxt-txt .bigtxt_one { width: 100%; height: 100%; font-size: 53px; font-weight: 600; margin-bottom: 10px;}
-.Home_Bigtxt .bigtxt-txt .bigtxt_one span {margin-right: 20px; font-size: 35px;}
+.Home_Bigtxt .bigtxt-txt .bigtxt_one { width: 100%; height: 100%; font-size: 80px; font-weight: 600; margin-bottom: 10px; background: linear-gradient(to top, #a6daf4 10%, transparent 10%);}
+.Home_Bigtxt .bigtxt-txt .bigtxt_one span {margin-right: 20px; font-size: 60px;}
 .Home_Bigtxt .bigtxt-txt  .bigtxt_two {font-size: 25px; }
 
-#Home .Home_smailtxt {width: 700px; height: 350px; margin: 20% 0 0 15%; background: #E2DED1;}
+/* #Home .Home_smailtxt {width: 700px; height: 350px; margin: 20% 0 0 15%; background: #E2DED1;} */
 #Home .Home_smailtxt p {line-height: 350px; text-align: center; font-size: 25px;}
 
 /* Scroll */
@@ -116,7 +115,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 #about .about_tit .about_img {position: relative;  float: left;  width: 60%;}
 #about .about_tit .about_img::before {position: absolute; right: 0; top: 0; content: ''; width: 1px; height: 400px; background: #E2DED1;}
 
-.about_tit figure {float: left; width: 45%; height: 400px; background: #E2DED1; border-radius: 60px 0; text-align: center;}
+.about_tit figure {float: left; width: 45%; height: 400px; background: #a6daf4; border-radius: 60px 0; text-align: center;}
 .about_tit .about_img_txt {float: left; width: 45%; padding: 30px 30px 30px 40px; font-size: 17px;}
 .about_tit .about_img_txt p {font-size: 22px; margin-bottom: 10px;}
 
@@ -133,14 +132,14 @@ nav .gnb li:hover, nav .gnb li:focus {background: #E2DED1;}
 #about .career {margin-top: 100px; font-size: 17px;}
 #about .career span {margin-left: 20px;}
 
-#about .praise {height: 250px; background: #fff; border-radius: 60px 0;}
+#about .praise {height: 250px; border-radius: 60px 0;}
 #about .praise li {float: left; width: calc(100%/4); text-align: center; margin-top: 30px; font-size: 17px;}
 #about .praise li img {width: 140px; height: 140px; margin-bottom: 20px;}
 
 /* #project */
 #project {height: 100%; overflow: hidden;}
 
-#project  .project_Swiper .swiper-slide {background: #E2DED1;  border-radius: 60px;}
+#project  .project_Swiper .swiper-slide {background: #a6daf4;  border-radius: 60px; margin-bottom: 60px;}
 
 #project  .project_Swiper .Swiper-img { position: relative; float: left; width: 50%; height: 100%; padding: 60px 30px; box-sizing: border-box; }
 #project  .project_Swiper .Swiper-img .pc_img { height: 100%;}

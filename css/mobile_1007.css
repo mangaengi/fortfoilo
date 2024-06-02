@@ -20,6 +20,8 @@ nav {width: 50%;}
 #Home .Home_Bigtxt {left: 0px; top: 50px; width: 100%;}
 #Home .Home_smailtxt {display: none;}
 .Home_Bigtxt .bigtxt-txt .bigtxt_one {font-size: 45px;}
+.Home_Bigtxt .bigtxt-txt .bigtxt_one span {font-size: 35px;}
+
 
 /* 모달박스 */
 #modalBox {padding: 0 15px; box-sizing: border-box;}

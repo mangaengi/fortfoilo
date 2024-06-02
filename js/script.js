@@ -23,19 +23,6 @@ $(function(){
   }
   setInterval(contents,2800)
 })
-/* 이미지 목업 - mobile  */
-$(function(){
-  let t =0;
-  function contents(){
-    if(t<3){
-      t++;
-    }else {
-      t=0;
-    }
-    $(" figure > .m_img_dokdo").animate({top: -165 * t + "px"},{height: 100 + "%"})
-  }
-  setInterval(contents,2800)
-})
 
 /* 이미지 목업 - ks_벽지  */
 $(function(){
@@ -46,23 +33,16 @@ $(function(){
     }else {
       t=0;
     }
+    
+    /* 이미지 목업 - pc  */
     $(" figure > .p_img_ks").animate({top: -130 * t + "px"},{height: 100 + "%"})
-  }
-  setInterval(contents,2800)
-})
-/* 이미지 목업 - mobile  */
-$(function(){
-  let t =0;
-  function contents(){
-    if(t<4){
-      t++;
-    }else {
-      t=0;
-    }
+
+    /* 이미지 목업 - mobile  */
     $(" figure > .m_img_ks").animate({top: -200 * t + "px" },{height: 100 + "%"})
   }
   setInterval(contents,2800)
 })
+
 
 /* 이미지 목업 - 삼청각  */
 $(function(){
@@ -73,19 +53,11 @@ $(function(){
     }else {
       t=0;
     }
+
+    /* 이미지 목업 - pc  */
     $(" figure > .p_img_smn").animate({top: -160 * t + "px"},{height: 100 + "%"})
-  }
-  setInterval(contents,2800)
-})
-/* 이미지 목업 - mobile  */
-$(function(){
-  let t =0;
-  function contents(){
-    if(t<6){
-      t++;
-    }else {
-      t=0;
-    }
+
+    /* 이미지 목업 - mobile  */
     $(" figure > .m_img_smn").animate({top: -250 * t + "px" },{height: 100 + "%"})
   }
   setInterval(contents,2800)
@@ -95,23 +67,16 @@ $(function(){
 /* contact */
 function sendEmailForm(form) {
     if ( form._replyto.value.length == 0 ) {
-      alert('이메일 주소를 입력해주세요.');
       form._replyto.focus();
       return;
     }
     
     if ( form.message.value.length == 0 ) {
-      alert('메세지를 입력해주세요.');
       form.message.focus();
       return;
     }
-    
+
     form.submit();
-    
-    form._replyto.value = '';
-    form.message.value = '';
-    form.submit1.innerHTML = '전송되었습니다.';
-    form.submit1.disabled = true;
   }
 
 /* 사이드메뉴 */
