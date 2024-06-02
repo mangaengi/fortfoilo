@@ -115,7 +115,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #2b69b2; color: #fff;}
 #about .about_tit .about_img {position: relative;  float: left;  width: 60%;}
 #about .about_tit .about_img::before {position: absolute; right: 0; top: 0; content: ''; width: 1px; height: 400px; background: #E2DED1;}
 
-.about_tit figure {float: left; width: 45%; height: 400px; background: #a6daf4; border-radius: 60px 0; text-align: center;}
+.about_tit figure {float: left; width: 45%; height: 400px; border-radius: 60px 0; text-align: center;}
 .about_tit .about_img_txt {float: left; width: 45%; padding: 30px 30px 30px 40px; font-size: 17px;}
 .about_tit .about_img_txt p {font-size: 22px; margin-bottom: 10px;}
 
@@ -132,14 +132,14 @@ nav .gnb li:hover, nav .gnb li:focus {background: #2b69b2; color: #fff;}
 #about .career {margin-top: 100px; font-size: 17px;}
 #about .career span {margin-left: 20px;}
 
-#about .praise {height: 250px; border-radius: 60px 0;}
+#about .praise {height: 250px; border-radius: 60px; background: #a6daf4;}
 #about .praise li {float: left; width: calc(100%/4); text-align: center; margin-top: 30px; font-size: 17px;}
 #about .praise li img {width: 140px; height: 140px; margin-bottom: 20px;}
 
 /* #project */
 #project {height: 100%; overflow: hidden;}
 
-#project  .project_Swiper .swiper-slide {background: #a6daf4;  border-radius: 60px; margin-bottom: 60px;}
+#project  .project_Swiper .swiper-slide {/* background: #a6daf4;  */ border-radius: 60px; margin-bottom: 60px;}
 
 #project  .project_Swiper .Swiper-img { position: relative; float: left; width: 50%; height: 100%; padding: 60px 30px; box-sizing: border-box; }
 #project  .project_Swiper .Swiper-img .pc_img { height: 100%;}

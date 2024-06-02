@@ -1,4 +1,4 @@
-var swiper = new Swiper( '.project_Swiper', {
+/* var swiper = new Swiper( '.project_Swiper', {
         autoplay:5000,
         speed : 5000,
         effect: 'coverflow',
@@ -13,4 +13,17 @@ var swiper = new Swiper( '.project_Swiper', {
             slideShadows : true,
 
         }
-    } );
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        }
+        
+    } ); */
+
+    var swiper = new Swiper(".project_Swiper", {
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
