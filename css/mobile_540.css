@@ -84,6 +84,8 @@ nav.on > .gnb > li > a {line-height: 80px; padding: 0;}
 
 #project .project_Swiper .Swiper-img .mobile_img {bottom: 0; right: 0;}
 
+#project .project_Swiper .point {right: 5%;}
+
 /* .mobile_img */
 #project  .project_Swiper .center .mobile_img {right: 3%; bottom: 0;}
 

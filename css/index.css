@@ -139,6 +139,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #2b69b2; color: #fff;}
 /* #project */
 #project {height: 100%; overflow: hidden;}
 
+#project  .project_Swiper {position: relative;}
 #project  .project_Swiper .swiper-slide {/* background: #a6daf4;  */ border-radius: 60px; margin-bottom: 60px;}
 
 #project  .project_Swiper .Swiper-img { position: relative; float: left; width: 50%; height: 100%; padding: 60px 30px; box-sizing: border-box; }
@@ -148,6 +149,9 @@ nav .gnb li:hover, nav .gnb li:focus {background: #2b69b2; color: #fff;}
 #project  .project_Swiper .Swiper-img .pc_img figure {position: absolute; top: 13%; left: 0; width: 100%; height: 375px; overflow: hidden;}
 #project  .project_Swiper .Swiper-img .pc_img figure > p {position: absolute; top: 0; left: 6%; width: 550px; overflow: hidden;}
 #project  .project_Swiper .Swiper-img .pc_img figure > p > img {width: 100%;}
+
+#project .project_Swiper .point {top: -50px; right: 15%;}
+#project .project_Swiper .point span {margin-right: 5px; padding: 5px; box-sizing: border-box;}
 
 /* 1402~1660 */
 @media screen and (min-width: 1402px) and (max-width: 1660px) {
@@ -186,7 +190,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #2b69b2; color: #fff;}
 
 
 /* contact */
-#contact {position: relative; height: 100%; background: #E2DED1; padding: 30px; box-sizing: border-box; margin-top: 30px;} 
+#contact {position: relative; height: 100%; background: #a6daf4; padding: 30px; box-sizing: border-box; margin-top: 30px;} 
 #contact .Comments {font-size: 17px; color: rgba(0,0,0,0.5);}
 
 #contact .my_img {position: absolute; right: 50px; bottom: 50px;}
