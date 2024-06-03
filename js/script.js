@@ -4,10 +4,10 @@ const close = document.querySelector("#close");
 const modalBox = document.querySelector("#modalBox");
 
 open.onclick = function() {
-  modalBox.classList.add("active")
+    modalBox.classList.add("active")
 } 
 close.onclick = function() {
-  modalBox.classList.remove("active")
+    modalBox.classList.remove("active")
 }
 
 /* 이미지 목업 - 독도 전시관  */

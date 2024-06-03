@@ -221,3 +221,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #2b69b2; color: #fff;}
     from { transform: translateX(0); }
     to { transform: translateX(-30%); }
 }
+
+/* 풋터 */
+footer {background: #c2c2c2; padding: 10px; box-sizing: border-box; text-align: center; font-size: 13px;}
+footer p {color: #585656;}
