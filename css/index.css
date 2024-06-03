@@ -172,6 +172,8 @@ nav .gnb li:hover, nav .gnb li:focus {background: #2b69b2; color: #fff;}
 
 /* --------- */
 
+#project h2 > span {font-size: 13px; font-weight: 500;}
+
 #project  .project_Swiper .center {height: 600px; bottom: 0;}
 #project  .project_Swiper .center .center_img img {width: 280px; height: 440px;}
 
