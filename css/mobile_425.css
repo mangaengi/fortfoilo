@@ -43,10 +43,10 @@ nav.on > .gnb > li > a {line-height: 70px; padding: 0;}
 #modalBox {z-index: 2; height: 100%; }
 
 #mudalContents {width: 100%; border-radius: 0; padding: 40px 30px; box-sizing: border-box;}
-#mudalContents h1 {writing-mode: vertical-rl; float: left; width: 10%; font-size: 23px; margin-top: 80px; line-height: 2.5;}
+#mudalContents h1 {writing-mode: vertical-rl; float: left; width: 10%; height: 50%; font-size: 23px; margin-top: 45px; line-height: 2.5;}
 #mudalContents > img {float: none; border-radius: 30px; width: 80%; height: 100%; margin-right: 0;}
 
-#mudalContents p {float: none; width: 310px; transform: translateX(10px); font-size: 14px;}
+#mudalContents p {float: none; width: 100%; transform: translateX(10px); font-size: 13px;}
 
 #mudalContents .skil {width: 100%;}
 #mudalContents .skil > li img {width: 40px; height: 40px;}

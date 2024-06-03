@@ -103,7 +103,7 @@ nav .gnb li:hover, nav .gnb li:focus {background: #2b69b2; color: #fff;}
 #mudalContents h1 {float: none; width: 100%; margin-bottom: 30px; font-size: 35px;}
 #mudalContents > img {float: left; width: 50%; height: 430px; border-radius: 60px 0; }
 #mudalContents p {position: relative; float: left; width: 50%; padding: 10px; font-size: 18px; line-height: 1.5; box-sizing: border-box;}
-#mudalContents #close {border: none; background: #fff; position: absolute; right: 30px; top: 30px; font-size: 30px; cursor: pointer;}
+#mudalContents #close {border: none; background: #fff; position: absolute; left: 30px; top: 30px; font-size: 30px; cursor: pointer;}
 
 #mudalContents p strong {position: absolute; top: 5px; transform: translateX(-50%); font-size: 23px; background: #fff; padding: 0 15px;}
 #mudalContents .skil {float: right; width: 48%;  height: 100px; border: 1px solid rgba(0,0,0,0.2); line-height: 8;}
